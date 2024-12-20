@@ -19,8 +19,8 @@ public class Cell {
     int row, col;
 
     // Static icons for cross and nought
-    private static final ImageIcon CROSS_ICON = new ImageIcon(Cell.class.getResource("/images/cat.gif"));
-    private static final ImageIcon NOUGHT_ICON = new ImageIcon(Cell.class.getResource("/images/doggie.gif"));
+    private static final ImageIcon CROSS_ICON = new ImageIcon(Cell.class.getResource("/TicTacToe/cat.gif"));
+    private static final ImageIcon NOUGHT_ICON = new ImageIcon(Cell.class.getResource("/TicTacToe/doggie.gif"));
 
     public Cell(int row, int col) {
         this.row = row;

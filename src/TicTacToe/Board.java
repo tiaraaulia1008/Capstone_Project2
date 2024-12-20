@@ -33,7 +33,7 @@ public class Board {
 
     public void loadImage() {
         // Memuat gambar background dari resource
-        URL imgURL = getClass().getClassLoader().getResource("background.jpg"); // Pastikan background.jpg ada di folder resources
+        URL imgURL = getClass().getClassLoader().getResource("TicTacToe/background.jpg"); // Pastikan background.jpg ada di folder resources
         if (imgURL != null) {
             ImageIcon backgroundIcon = new ImageIcon(imgURL);
             backgroundImage = backgroundIcon.getImage();
